@@ -1,139 +1,45 @@
+
 html, body {
     Height: 100%;
     width: 100%;
 
 }
 body {
-  
+    font-family: 'Lato', sans-serif;
     margin: 0%;
     padding: 0%;
-}
-#nav {
-    padding: 0; margin: 0;
     text-align: center;
-    color: black;
+    color: #333
+
 }
-#nav li {
-    display: inline;
-    list-style: none;
+body h1 {
+    font-family: 'Courgette', cursive;
+
+    text-align: center;
+    font-size: 5em;
 }
-#nav a {
-    display:inline-block;
-    margin: 0 30px;
+
+.intro {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+
 }
-.banner {
-    background: no-repeat;
-    height: 400px;
-    padding-bottom: 75px;
-    display: block; 
+/*portionnage*/
+.img-portion{
+
+}
+.center { 
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-#Acceuil {
-    background: lightgrey;
-}
-#menu {
-    background-color: grey;
-    color:black;
-}
-
-
- .img-box{
-    width: 600px;
-	height: 600px;
- }
-
- .container-card-1 {
-    width: 300px;
-    
-    background:#fff;   
-}
-
-.container-card-1 .card-1 {
-    
-position: relative;
-width: 100%;
-height: 100%;
-}
-
-.container-card-1 .card-1 .img-box img {
-    
-    max-width: 100%;
-    opacity: 0.7;
-    
-}
-
-.container-card-1:hover .card-1 .img-box img {
-    
-    
-    opacity: 1;
-    
-}
-
-.container-card-1:hover .card-1 .img-box .details-no-hover { 
-    opacity: 0;   
-}
-
-.details-no-hover h3 {
-    
-    
-    border-radius: 25px;
-    background-color: #fff;
-    width: 200px;
-    height: 60px;
+  }
+ 
+  .container{
+    margin: 2rem 8rem 2rem 8rem ;
+    background: #eeeeee;
+    padding: 1rem 4rem 2rem 3rem ;
+    font-size: medium;
     text-align: center;
-    margin: 30px;
-    vertical-align: middle;
-    opacity: 0.8;
-    line-height: 1.8;
-    
 
-    
-    
-}
-
-.details-no-hover h4 {
-    
-    
-color: #fff;
-text-align: center;
-vertical-align: middle;
-font-size: 50px;
-
-
-    
- }
-
-
-
-.container-card-1 .card-1 .img-box .details-no-hover {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    
-    
-}
-
-
-
-.container-card-1 .card-1 .img-box .details-hover {
-    position: absolute;
-    top: 70%;   
-    left: 30%;
-    opacity: 0;
-    }
-
-    .container-card-1:hover .card-1 .img-box .details-hover {
-    position: absolute;
-    top: 70%;   
-    left: 30%;
-    opacity: 1;
-    }
-
-    .details-hover h4 {
-    color: #fff;
-text-align: center;
-vertical-align: bottom;
-font-size: 30px;
-    }}
+  }
