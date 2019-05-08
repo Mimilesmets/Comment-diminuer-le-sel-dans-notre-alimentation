@@ -26,6 +26,13 @@ body h1 {
     font-size: 1.2em;
 
 }
+h2 {
+    margin:1.5rem;
+}
+
+h3 {
+    margin: 1rem;
+}
 /*portionnage*/
 
 .center { 
